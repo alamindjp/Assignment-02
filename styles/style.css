@@ -23,9 +23,10 @@ a{
     padding: 10px 15px;
     color: aliceblue;
 }
-h1{
+h1, h2, h3{
     margin: 0;
 }
+
 .color-title{
     color: brown;
 }
@@ -135,11 +136,53 @@ li{
 .influencers{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      justify-content: space-around;
+      justify-content: space-evenly;
       align-items: center;
+      grid-row-gap: 20px;
       margin-top: 30px;
+
+  }
+  .influencer{
+      width: 85%;
+      border: 0 solid #9c9c9c;
+      border-radius: 10px;
+      box-shadow: 10px 10px 40px #b1b1b1c4;
+      margin-bottom: 30px;
+  }
+  .influence-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .influencer img{
     width: 300px;
     height: 256px;
+    padding: 10px;
   }
+  .influence-heading{
+      display: flex;
+      flex-direction: column;
+      padding: 0 15px;
+}
+.influence-heading h2{
+    font-weight: 500;
+}
+.influence-heading h3{
+    font-weight: 400;
+}
+.influence-rating{
+    width: 37%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    font-size: 14px;
+}
+.filled{
+    color: #FB8200;
+}
+.influencer p{
+    color: #787885;
+    width: 70%;
+    text-align: justify;
+    padding: 15px;
+}
