@@ -60,12 +60,15 @@ li{
 /* -----------------
     main body styles
 -------------------- */
+
+/* --------------------
+    bannar item styles
+ ---------------------- */
 .banner-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 100px;
 }
 
 .banner-title{
@@ -93,4 +96,26 @@ li{
     height: 414px;
     margin-top: 30px;
     margin-right: 15px;
+}
+/* -----------------------
+    marketplace styles
+-------------------------- */
+.marketplace-area{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.marketplace{
+    margin: 100px 0;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #b8b7b7;
+    border-bottom: 1px solid #b8b7b7;
+    border-radius: 10px;
+}
+.marketplace img{
+    Width: 84px;
+    Height: 25px;
 }
