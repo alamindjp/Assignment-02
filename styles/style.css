@@ -1,7 +1,7 @@
 /* ----------------
     google fonts 
 ------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
 /* ----------------
     style starting 
@@ -14,7 +14,7 @@ body{
     common styles 
 ------------------- */
 .container{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 a{
@@ -70,11 +70,18 @@ li{
     align-items: center;
     margin-top: 20px;
 }
-
 .banner-title{
-    font-size: 54px;
+    color: #3A3A3A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+}
+.banner-section p{
+    color: #3A3A3A;
+    font-weight: 600;
 }
 .primary-btn{
+    font-weight: 700;
     background-image: linear-gradient(90deg, blue, red);
     align-items: center;
     border: 1px solid;
@@ -100,11 +107,6 @@ li{
 /* -----------------------
     marketplace styles
 -------------------------- */
-.marketplace-area{
-    width: 90%;
-    margin: 0 auto;
-    
-}
 .marketplace{
     margin: 100px 0;
     padding: 25px;
@@ -119,3 +121,6 @@ li{
     Width: 84px;
     Height: 25px;
 }
+/* ----------------------
+    Popular Collection
+  ---------------------- */
