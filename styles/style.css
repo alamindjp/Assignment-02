@@ -13,6 +13,10 @@ body{
 /* ----------------
     common styles 
 ------------------- */
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
 a{
     text-decoration: none;
     padding: 10px 15px;
@@ -24,7 +28,9 @@ h1{
 .color-title{
     color: brown;
 }
-
+.half-width{
+    width: 580PX;
+}
 /* -----------------
     heading style 
 -------------------- */
@@ -32,10 +38,7 @@ header{
     background-color: #6c6ce0;
 
 }
-.container{
-    width: 90%;
-    margin: 0 auto;
-}
+
 .logo{
     font-family: 'Luxurious Roman', cursive;
 }
@@ -61,8 +64,10 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
+
 .banner-title{
     font-size: 54px;
 }
@@ -75,4 +80,17 @@ li{
 }
 .primary-btn>.fa-chevron-right{
     margin-left: 5px;
+}
+.banner-img{
+    margin-left: 20px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    width: 500px;
+    float: right;
+}
+.banner-img img{
+    width: 440px;
+    height: 414px;
+    margin-top: 30px;
+    margin-right: 15px;
 }
