@@ -9,6 +9,7 @@
 body{
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
+    background-color: #fcfcfc;
 }
 /* ----------------
     common styles 
@@ -116,6 +117,7 @@ li{
     border-top: 1px solid #b8b7b7;
     border-bottom: 1px solid #b8b7b7;
     border-radius: 10px;
+    border-style: linear-gradient(90deg, #c0ccda1a 0%, #c0ccda99 50.38%, #c0ccda1a);
 }
 .marketplace img{
     Width: 84px;
@@ -124,3 +126,20 @@ li{
 /* ----------------------
     Popular Collection
   ---------------------- */
+#influencer-header{
+    color: #3A3A3A;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.influencers{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 30px;
+  }
+  .influencer img{
+    width: 300px;
+    height: 256px;
+  }
