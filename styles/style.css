@@ -101,7 +101,7 @@ li{
     justify-content: space-around;
     width: 250px;
     font-weight: 700;
-    background-image: linear-gradient(90deg, blue, red);
+    background-image: linear-gradient(90deg, #49a09d  , #5f2c82);
     align-items: center;
     border: 1px solid;
     border-radius: 30px;
@@ -270,4 +270,20 @@ footer{
 .social-logo>li>a{
     color: papayawhip;
     padding: 5px 10px;
+}
+
+/*--------------------
+    extra styles
+---------------------- */
+
+/*----------------- 
+    hover styles
+------------------- */
+ul>li:hover{
+    transition: transform .3s;
+    transform: scale(1, 2);;
+}
+.primary-btn:hover{
+    background-image: linear-gradient(90deg, #5f2c82,#49a09d );
+    transition: transform .1s;
 }
