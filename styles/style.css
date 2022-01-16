@@ -26,7 +26,7 @@ h1, h2, h3, p{
 }
 
 .color-title{
-    color: #a52a2a79;
+    color: #d31cdaad;
 }
 .half-width{
     width: 580PX;
@@ -99,18 +99,18 @@ li{
 .primary-btn{
     display: flex;
     justify-content: space-around;
-    width: 250px;
+    width: 170px;
     font-weight: 700;
-    background-image: linear-gradient(90deg, #49a09d  , #5f2c82);
+    background-color: #E02C6D;
     align-items: center;
-    border: 1px solid;
+    border: 0px solid;
     border-radius: 30px;
     
 }
-.primary-btn a,
+.button>a>.primary-btn,
 .fa-chevron-right,
 .fa-arrow-right{
-    padding: 10px 20px;
+    padding: 8px 0;
     color: aliceblue;
     font-weight: 700;
 }
@@ -218,7 +218,7 @@ li{
     height: 40px;
     justify-content: flex-end;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 20px;
 
 }
@@ -233,7 +233,7 @@ li{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .featured-products-img img{
     Width: 404px;
@@ -245,6 +245,9 @@ li{
 }
 #featured-img-side{
     width: 450px;
+}
+.featured-title{
+    font-size: 35px;
 }
 .featured-products>.half-width>P{
     margin: 16px 0;
@@ -292,16 +295,20 @@ footer{
 ul>li:hover,
 .marketplace>a:hover{
     transition: transform .3s;
-    transform: scale(1, 2);;
+    transform: scale(1, 2);
 }
 .primary-btn:hover{
-    background-image: linear-gradient(90deg, #5f2c82,#49a09d );
-    box-shadow: 0 7px #272785;
+    background-color: #E02C6D;
+    box-shadow: 0 10px #52011f;
 }
 .primary-btn:active {
-    box-shadow: 0 3px #272785;
+    box-shadow: 0 5px #636363;
     transform: translateY(4px);
 } 
+.influence-img:hover img{
+    transition: transform .3s;
+    transform: scale(1.02);
+}
 .more-link>a:hover{
     text-align: center;
     width: 100px;

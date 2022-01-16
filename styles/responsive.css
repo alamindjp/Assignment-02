@@ -118,3 +118,16 @@
        height: 270px;
     }
 }
+   /* --------------------------------------
+    responsive with max-width: 688
+------------------------------------------  */
+
+@media only screen and (min-width: 688px) and (max-width: 1200px) {
+    .influencer img{
+        width: 240px;
+        height: 220px;
+    }
+    .half-width{
+        max-width: 350px;
+    }
+}
