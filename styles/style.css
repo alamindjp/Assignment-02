@@ -52,10 +52,18 @@ header{
     align-items: center;
     color: aliceblue;
 }
-.menu-bar{
+.meu-bar{
     display: flex;
     justify-content: space-between;
 
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li>a{
+    color: whitesmoke;
+    padding: 5px 10px;
 }
 li{
     list-style: none;
@@ -206,6 +214,10 @@ li{
     margin: 0 auto;
     margin-bottom: 50px;
     margin-top: 20px;
+
+}
+.more-link a{
+    color: tomato;
 
 }
 /* -----------------------
