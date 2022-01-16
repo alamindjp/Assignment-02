@@ -211,7 +211,6 @@ li{
     text-align: justify;
     padding: 10px 15px;
 }
-
 .more-link{
     display: flex;
     width: 80%;
@@ -303,7 +302,7 @@ ul>li:hover,
     box-shadow: 0 3px #272785;
     transform: translateY(4px);
 } 
-.more-link:hover>a{
+.more-link>a:hover{
     text-align: center;
     width: 100px;
     background-color: #6c6ce0;

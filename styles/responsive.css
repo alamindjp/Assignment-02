@@ -2,16 +2,13 @@
     responsive with max-width: 688
 ------------------------------------------  */
 
-@media screen and (max-width: 688px) {
-       body{
-           max-width: 688px;
-           margin: 0 auto;
-       }
-       .half-width{
-           display: flex;
-           flex-direction: column;
-           align-items: center;
-       }
+@media only screen and (max-width: 688px) {
+   
+    .half-width{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .navigation{
         display: flex;
         flex-direction: column;
@@ -46,11 +43,15 @@
 /* -----------------------
     marketplace styles
 -------------------------- */
-.marketplace{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 20px;
-}
+    .marketplace{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 20px;
+    }
+    .marketplace img{
+        Width: 65px;
+        Height: 20px;
+    }
      .influencers{
         display: flex;
         flex-direction: column;
@@ -83,7 +84,28 @@
     responsive with max-width: 688
 ------------------------------------------  */
 
-@media screen and (max-width: 688px) {
-
-
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .banner-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .half-width{
+        margin-top: 90px;
+    }
+    .marketplace img{
+        Width: 50px;
+        Height: 25px;
+    }
+    .influencers{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #influencer-last-item{
+        text-align: center;
+    }
+    .influencer img{
+        width: 260px;
+        height: 216px;
+        padding: 15px 10px;
+    }
 }
