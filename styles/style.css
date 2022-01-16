@@ -40,7 +40,7 @@ h1, h2, h3, p{
 -------------------- */
 header{
     background-color: #6c6ce0;
-    position: fixed;
+    position: fixed
     top: 0;
     left: 0;
     right: 0;
@@ -64,7 +64,7 @@ ul{
     display: flex;
     justify-content: space-evenly;
 }
-li>a{
+.menu-bar>li>a{
     color: whitesmoke;
     padding: 10px 15px;
 }
@@ -232,6 +232,7 @@ li{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 100px;
 }
 .featured-products-img img{
     Width: 404px;
@@ -243,4 +244,30 @@ li{
 }
 #featured-img-side{
     width: 450px;
+}
+/* --------------------
+    footer styles
+   -------------------- */
+footer{
+    width: 100%;
+    height: 200px;
+    color: papayawhip;
+    background-color: #040029;
+    text-align: center;
+}
+.footer{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.social-logo{
+    width: 250px;
+    font-size: 24px;
+}
+.social-logo>li{
+    border-radius: 50%;
+}
+.social-logo>li>a{
+    color: papayawhip;
+    padding: 5px 10px;
 }
