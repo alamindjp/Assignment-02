@@ -26,7 +26,7 @@ h1, h2, h3, p{
 }
 
 .color-title{
-    color: brown;
+    color: #a52a2a79;
 }
 .half-width{
     width: 580PX;
@@ -40,7 +40,7 @@ h1, h2, h3, p{
 -------------------- */
 header{
     background-color: #6c6ce0;
-    position: fixed
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -247,6 +247,9 @@ li{
 #featured-img-side{
     width: 450px;
 }
+.featured-products>.half-width>P{
+    margin: 16px 0;
+}
 /* --------------------
     footer styles
    -------------------- */
@@ -262,9 +265,15 @@ footer{
     margin: 0 auto;
     padding-top: 30px;
 }
+.footer>p{
+    font-size: 12px;
+    padding: 16px 0;
+    line-height: 2em;
+}
 .social-logo{
     width: 250px;
     font-size: 24px;
+    margin: 0;
 }
 .social-logo>li{
     border-radius: 50%;
@@ -281,7 +290,8 @@ footer{
 /*----------------- 
     hover styles
 ------------------- */
-ul>li:hover{
+ul>li:hover,
+.marketplace>a:hover{
     transition: transform .3s;
     transform: scale(1, 2);;
 }
