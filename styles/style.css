@@ -215,6 +215,8 @@ li{
 .more-link{
     display: flex;
     width: 80%;
+    align-items: center;
+    height: 40px;
     justify-content: flex-end;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -285,5 +287,23 @@ ul>li:hover{
 }
 .primary-btn:hover{
     background-image: linear-gradient(90deg, #5f2c82,#49a09d );
-    transition: transform .1s;
+    box-shadow: 0 7px #272785;
 }
+.primary-btn:active {
+    box-shadow: 0 3px #272785;
+    transform: translateY(4px);
+} 
+.more-link:hover>a{
+    text-align: center;
+    width: 100px;
+    background-color: #6c6ce0;);
+    padding: 5px 10px;
+    border-radius: 15px;
+    box-shadow: 0 7px #272785;
+    
+}
+.more-link:active>a {
+    background-color: #4f4fe0;
+    box-shadow: 0 3px #272785;
+    transform: translateY(4px);
+} 
